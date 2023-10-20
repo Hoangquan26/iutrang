@@ -84,7 +84,7 @@ const App = () => {
   }, [audioContextStarted]);
 
   return (
-    <div className=" relative App flex flex-col items-center justify-center p-6 h-screen w-full">
+    <div className=" relative App flex flex-col items-center justify-center p-6 h-screen w-full max-w-7xl">
       {stage === 1 && (
         <div className="flex flex-col items-center justify-center gap-6">
           <p>Ai đấyyy, có phải người iu tôi không ạ, phải thì đọc pass ngày sinh của em ra đây mới được vào nha</p>
