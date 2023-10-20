@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .slick-dots {
+    position: static;
+    margin-top: 20px;
+  }
+  
+  .slick-dots li {
+    display: inline;
+    margin: 0 5px;
+  }
+  

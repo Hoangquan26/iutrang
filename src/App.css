@@ -1,0 +1,18 @@
+.draw-card {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.card-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-display {
+  width: 200px;
+  height: 300px;
+}
