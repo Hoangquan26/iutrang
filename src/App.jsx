@@ -140,7 +140,7 @@ const App = () => {
         </div>
       )
     }
-    <div className=' absolute bottom-24 mt-10 flex flex-col items-center justify-center gap-4'>
+    <div className=' absolute bottom-14 mt-10 flex flex-col items-center justify-center gap-4'>
       <p className={` ${ showAlert ? ' opacity-100' : ' opacity-0'} text-red-600`}>Sai nha cấm vàoo</p>
       <button onClick={handleContinue} className=' rounded-3xl pt-2 pb-2 pr-4 pl-4 text-white bg-amber-600'>{stage < 4 ? "Tiếp tục thoai" : "Yêu emmm"}</button>
     </div>
