@@ -136,11 +136,11 @@ const App = () => {
               e.preventDefault()
             }} className=' m-6 h-72 object-cover object-center' src="https://giphy.com/embed/M90mJvfWfd5mbUuULX" class="giphy-embed"></iframe>
           <h1 className=' text-lg'> Hết dồi, anh đi học đâyy ạ, tối qua emmm</h1>
-          
+          <p>Em mà thích cái này bảo anh để anh lưu kỷ niệm của mình trên đây =))))</p>
         </div>
       )
     }
-    <div className=' absolute bottom-6 mt-10 flex flex-col items-center justify-center gap-4'>
+    <div className=' absolute bottom-24 mt-10 flex flex-col items-center justify-center gap-4'>
       <p className={` ${ showAlert ? ' opacity-100' : ' opacity-0'} text-red-600`}>Sai nha cấm vàoo</p>
       <button onClick={handleContinue} className=' rounded-3xl pt-2 pb-2 pr-4 pl-4 text-white bg-amber-600'>{stage < 4 ? "Tiếp tục thoai" : "Yêu emmm"}</button>
     </div>
